@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>She Can Foundation</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- AOS Animation -->
+    <link rel="stylesheet"
+        href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav>
+
+        <div class="logo">
+
+            <i class="fa-solid fa-heart-circle-check"></i>
+
+            <span>She</span> Can Foundation
+
+        </div>
+
+        <ul>
+
+            <li><a href="#">Home</a></li>
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- HERO SECTION -->
+
+    <section class="hero">
+
+        <div class="hero-content" data-aos="fade-right">
+
+            <h2>Together We Can Empower</h2>
+
+            <h1>WOMEN</h1>
+
+            <p>
+                Supporting education, equality, healthcare,
+                and opportunities for women from marginalized communities.
+            </p>
+
+            <button onclick="scrollToContact()">
+
+                <i class="fa-solid fa-heart"></i>
+
+                Join Us
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- QUOTE SECTION -->
+
+    <section class="quote-section">
+
+        <h2>Daily Inspiration</h2>
+
+        <div class="quote-box">
+
+            <p id="quote">
+                Loading inspirational quote...
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+
+    <section class="about" id="about" data-aos="fade-up">
+
+        <p class="section-title">ABOUT US</p>
+
+        <h2>
+            About <span>She Can</span> Foundation
+        </h2>
+
+        <p class="about-text">
+
+            She Can Foundation is a registered NGO dedicated to uplifting
+            and empowering underprivileged women through education,
+            healthcare awareness, skill development, and community initiatives.
+
+        </p>
+
+        <!-- CARDS -->
+
+        <div class="cards">
+
+            <div class="card">
+
+                <i class="fa-solid fa-graduation-cap"></i>
+
+                <h3>Education</h3>
+
+                <p>
+                    Promoting quality education and skill development.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-hand-holding-heart"></i>
+
+                <h3>Empowerment</h3>
+
+                <p>
+                    Supporting women to become independent leaders.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-user-group"></i>
+
+                <h3>Community</h3>
+
+                <p>
+                    Building stronger communities through collaboration.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+
+    <section class="contact" id="contact">
+
+        <div class="contact-left">
+
+            <p class="section-title">GET IN TOUCH</p>
+
+            <h2>Join Us In Making A Difference</h2>
+
+            <p>
+                Whether you want to volunteer, contribute,
+                or simply get in touch, we'd love to hear from you.
+            </p>
+
+        </div>
+
+        <div class="contact-right">
+
+            <form id="contactForm">
+
+                <input type="text"
+                    id="name"
+                    placeholder="Your Name">
+
+                <input type="email"
+                    id="email"
+                    placeholder="Your Email">
+
+                <textarea
+                    id="message"
+                    placeholder="Your Message"></textarea>
+
+                <button type="submit">
+
+                    Send Message
+
+                </button>
+
+                <p id="successMessage"></p>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        © 2026 She Can Foundation. All Rights Reserved.
+
+    </footer>
+
+
+    <!-- SCRIPT -->
+
+    <script type="module" src="script.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
